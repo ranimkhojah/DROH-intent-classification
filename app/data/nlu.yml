@@ -1,6 +1,51 @@
 version: "2.0"
 
 nlu:
+- intent: appointment
+  examples: |
+    - make an appointment
+    - book an appointment
+    - set up an appointment
+    - fix an appointment
+    - arrange an appointment
+    - set a meeting
+    - make a date
+    - arrange a meeting
+    - schedule a meeting
+    - schedule an appointment
+    - set a meet up
+    - get an appointment
+    - organize a meeting
+
+- intent: todo_item
+  examples: |
+    - add something to my to do list
+    - what do I have to do
+    - check my to do list
+    - what is on my checklist
+    - view my to do items
+    - show me my to do items
+    - change a to do item
+
+- intent: timer
+  examples: |
+    - set a timer
+    - create a timer
+    - start a timer
+    - set a timer for 4 minutes
+    - create a timer for 3 seconds
+    - start a timer for 7 hours
+    - set a stopwatch
+    - use a stopwatch
+    - set the countdown timer
+    - start a countdown
+    - start a countdown for 8 minutes
+    - set an alarm
+    - set an alarm after 1 minute
+    - set the alarm clock
+    - switch on the alarm
+    - turn on the alarm
+
 - intent: greet
   examples: |
     - hey
@@ -30,6 +75,30 @@ nlu:
     - see you around
     - bye bye
     - see you later
+
+- intent: time
+  examples: |
+    - for seven seconds
+    - for half a second
+    - for four seconds and a half
+    - for one second
+    - for 3 seconds
+    - for 1 second
+    - 5 seconds
+    - for three minutes
+    - for half a minute
+    - for two minutes and a half
+    - for one minute
+    - for 4 minutes
+    - for 1 minute
+    - 5 minutes
+    - for five hours
+    - for half a hour
+    - for eight hours and a half
+    - for one hour
+    - for 9 hours
+    - for 1 hour
+    - 2 minutes
 
 - intent: affirm
   examples: |
